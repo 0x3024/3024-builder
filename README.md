@@ -1,7 +1,7 @@
 # 3024 Builder
 
 Easily build color variations of 3024 with YAML scheme definitions and ERB templates.  
-Base on Chris Kempson's [Base16 Builder](https://github.com/chriskempson/base16-builder6).
+Based entirely on Chris Kempson's [Base16 Builder](https://github.com/chriskempson/base16-builder6).
 
 Requires Ruby 1.9 or greater.
 
