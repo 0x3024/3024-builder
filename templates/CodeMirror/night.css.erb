@@ -1,0 +1,33 @@
+/*
+
+    Name:       <%= @scheme %> night
+    Author:     <%= @author %>
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-<%= @slug %>-night.CodeMirror {background: #<%= @base["00"]["hex"] %>; color: #<%= @base["06"]["hex"] %>;}
+.cm-s-<%= @slug %>-night div.CodeMirror-selected {background: #<%= @base["01"]["hex"] %> !important;}
+.cm-s-<%= @slug %>-night .CodeMirror-gutters {background: #<%= @base["00"]["hex"] %>; border-right: 0px;}
+.cm-s-<%= @slug %>-night .CodeMirror-linenumber {color: #<%= @base["03"]["hex"] %>;}
+.cm-s-<%= @slug %>-night .CodeMirror-cursor {border-left: 1px solid #<%= @base["04"]["hex"] %> !important;}
+
+.cm-s-<%= @slug %>-night span.cm-comment {color: #<%= @base["0F"]["hex"] %>;}
+.cm-s-<%= @slug %>-night span.cm-atom {color: #<%= @base["0E"]["hex"] %>;}
+.cm-s-<%= @slug %>-night span.cm-number {color: #<%= @base["0E"]["hex"] %>;}
+
+.cm-s-<%= @slug %>-night span.cm-property, .cm-s-<%= @slug %>-night span.cm-attribute {color: #<%= @base["0B"]["hex"] %>;}
+.cm-s-<%= @slug %>-night span.cm-keyword {color: #<%= @base["08"]["hex"] %>;}
+.cm-s-<%= @slug %>-night span.cm-string {color: #<%= @base["0A"]["hex"] %>;}
+
+.cm-s-<%= @slug %>-night span.cm-variable {color: #<%= @base["0B"]["hex"] %>;}
+.cm-s-<%= @slug %>-night span.cm-variable-2 {color: #<%= @base["0D"]["hex"] %>;}
+.cm-s-<%= @slug %>-night span.cm-def {color: #<%= @base["09"]["hex"] %>;}
+.cm-s-<%= @slug %>-night span.cm-error {background: #<%= @base["08"]["hex"] %>; color: #<%= @base["04"]["hex"] %>;}
+.cm-s-<%= @slug %>-night span.cm-bracket {color: #<%= @base["06"]["hex"] %>;}
+.cm-s-<%= @slug %>-night span.cm-tag {color: #<%= @base["08"]["hex"] %>;}
+.cm-s-<%= @slug %>-night span.cm-link {color: #<%= @base["0E"]["hex"] %>;}
+
+.cm-s-<%= @slug %>-night .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
