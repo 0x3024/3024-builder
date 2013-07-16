@@ -178,7 +178,7 @@ help_message = <<-EOF
 3024 Builder v0.1
 https://github.com/chriskempson/base16-builder
 
-usage: build               build all schemes
+usage: ./build               build all schemes
 EOF
 
 case ARGV[0]
