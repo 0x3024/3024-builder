@@ -1,7 +1,11 @@
-<%
-# Rouge Template (https://github.com/jayferd/rouge/)
-# Jay Adkisson (http://jayferd.us/)
-%>module Rouge
+#   Name:       <%= @scheme %>
+#   Author:     <%= @author %>
+
+#   3024 color scheme by Jan T. Sott (https://github.com/idleberg)
+#   Rouge template by Jay Adkisson (http://jayferd.us/)
+#   Built with a modified version of Base16 Builder by Chris Kempson (https://github.com/chriskempson)
+
+module Rouge
   module Themes
     class <%= @scheme %> < Base16
       name '<%= @scheme %>'

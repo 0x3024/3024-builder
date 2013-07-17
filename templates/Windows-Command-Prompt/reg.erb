@@ -1,7 +1,10 @@
 Windows Registry Editor Version 5.00
 
-; <%= @scheme %> (https://github.com/chriskempson/base16)
-; Scheme: <%= @author %>
+;	Name:       <%= @scheme %>
+;	Author:     <%= @author %>
+
+;	3024 color scheme by Jan T. Sott (https://github.com/idleberg)
+;	Built with a modified version of Base16 Builder by Chris Kempson (https://github.com/chriskempson)
 
 [HKEY_CURRENT_USER\Console]
 "ColorTable00"=dword:00<%= @base["00"]["hexbgr"] %>
